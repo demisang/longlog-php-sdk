@@ -1,0 +1,36 @@
+{
+    "name": "longlog/php-sdk",
+    "description": "PHP API client for LongLog application",
+    "keywords": [
+        "longlog",
+        "logs",
+        "api",
+        "client"
+    ],
+    "homepage": "https://github.com/demisang/longlog-php-sdk#readme",
+    "type": "library",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Ivan Orlov",
+            "email": "gnasimed@gmail.com",
+            "homepage": "https://orlov.io/",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/demisang/longlog-php-sdk/issues",
+        "source": "https://github.com/demisang/longlog-php-sdk"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "longlog\\": "src/"
+        }
+    }
+}
